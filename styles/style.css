@@ -1,0 +1,374 @@
+nav {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,105,255,1) 27%, rgba(255,255,255,1) 100%);
+  border-bottom: solid aliceblue 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+li a {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  display: block;
+  color: rgb(255, 254, 254);
+  font-size: 25px; /* Tamaño de fuente reducido */
+  width: 92.5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 186px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li a:hover {
+  background-color: rgb(148, 148, 148);
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  background-image: url(../violin-374096_1920.jpg);
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 40px;
+
+}
+
+#botones_selecciones {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+#introduccion {
+  display: grid;
+  border: solid rgb(255, 255, 255) 5px;
+  grid-template-columns: 50% 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+#generos {
+  display: grid;
+  border: solid rgb(255, 255, 255) 5px;
+  grid-template-columns: 50% 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+#generos_pop {
+  display: grid;
+  border: solid rgb(255, 255, 255) 5px;
+  grid-template-columns: 50% 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+#artistas {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#artista_michael{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#artista_chester{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#artista_kurt{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#artista_mick{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#generos_metal{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#banda_Aerosmith{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#banda_beatles{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#banda_metallica{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#banda_queen{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#banda_nirvana{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#banda_guns{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: solid rgb(255, 255, 255) 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+#banda_rhcp{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#generos_gospel{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#generos_hiphop{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#generos_jazz{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+#artistas_ozzy{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid rgb(255, 255, 255) 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+.hola {
+  margin-top: 250px;
+}
+.metal{
+  margin-top: 60px;
+}
+.beatles{
+  margin-top: 250px;
+}
+.generos_grid {
+  margin-top: 250px;
+}
+
+.generos_grid_pop {
+  margin-top: 100px;
+}
+
+.artista_freddie {
+  margin-top: 250px;
+}
+
+.michael {
+  margin-top: 60px;
+}
+.chester{
+  margin-top: 60px;
+}
+.kurt{
+  margin-top: 60px;
+}
+.mick{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.metallica{
+  margin-top: 60px;
+}
+.queen{
+  margin-top: 60px;
+}
+.nirvana{
+  margin-top: 60px;
+}
+.guns{
+  margin-top: 60px;
+}
+.rhcp{
+  margin-top: 60px;
+
+}
+.gospel{
+  margin-top: 60px;
+}
+.jazz{
+  margin-top: 60px;
+}
+.hiphop{
+  margin-top: 60px;
+}
+.artista_ozzy{
+  margin-top: 60px;
+}
+.Aerosmith{
+  margin-top: 60px;
+}
+#titulo_rhcp,
+#titulo,
+#titulo_genero,
+#titulo_genero_pop,
+#titulo_freddy,
+#titulo_jackson,
+#titulo_chester,
+#titulo_kurt,
+#titulo_mick, #titulo_beatles, #titulo_metallica, #titulo_queen, #titulo_nirvana
+, #titulo_gurns, #titulo_gospel, #titulo_jazz, #titulo_hiphop, #titulo_ozzy, #titulo_Aerosmith{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+p {
+  line-height: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+#imagen_musica,
+#imagen_rock,
+#imagen_pop,
+#imagen_freedie,
+#imagen_michael,
+#imagen_chester,
+#imagen_kurt,
+#imagen_mick,
+#imagen_metal,
+#imagen_beatles, #imagen_metallica, #imagen_queen, #imagen_iphone, #imagen_nirvana,
+#imagen_guns, #imagen_rhcp, #imagen_gospel, #imagen_jazz, #imagen_hiphop, #imagen_ozzy, #imagen_Aerosmith{
+  float: right;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+h2{
+  color: aliceblue;
+}
